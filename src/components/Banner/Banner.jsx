@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import banner from '../../../public/images/banner.png'
 import Slider from '../Slider/Slider';
+import { FaAnglesRight } from "react-icons/fa6";
 import 'animate.css';
+
 
 const Banner = () => {
 
@@ -37,7 +39,14 @@ const Banner = () => {
 
             {/* Slider */}
             <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-10 bg-violet-200 rounded-3xl mb-10'>
-                <h3 className='text-xl md:text-3xl font-bold text-center text-blue-600 mb-4'>Swipe Your Dream Places</h3>
+                <div className='text-[] md:text-3xl md:font-bold text-center text-blue-600 mb-4 flex flex-row items-center justify-center gap-2'>
+                    <h3 className='text-center'>
+                        Swipe Your Dream Places
+                    </h3>
+                    <div>
+                        <FaAnglesRight />
+                    </div>
+                </div>
                 <Slider />
             </div>
         </div>
