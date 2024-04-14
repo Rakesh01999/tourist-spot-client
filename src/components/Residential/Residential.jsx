@@ -17,8 +17,8 @@ const Residential = ({ residential }) => {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title text-xl lg:text-2xl text-blue-500 mx-auto font-bold my-4">{estate_title}</h2>
-                    <div className="flex gap-2 items-center text-xl text-green-500 md:text-2xl">
-                        <IoPricetags />
+                    <div className="flex gap-2 items-center text-xl text-green-700 md:text-2xl">
+                        <IoPricetags className="text-green-200" />
                         <p>{price}</p>
                     </div>
                     <div className="border-b-2 my-4"></div>
