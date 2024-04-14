@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Modern Townhouse",
+        "segment_name": "Single-family homes",
+        "description": "Beautiful modern townhouse with spacious rooms and stunning views.",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "2,500 sq ft",
+        "location": "Mayfair City",
+        "facilities": [
+            "3 bedrooms",
+            "2 bathrooms",
+            "Garage",
+            "Patio"
+        ],
+        "image": "https://i.postimg.cc/85R5STFR/allphoto-bangkok-n-I4a-C1ka-TRc-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "estate_title": "Luxury Apartment",
+        "segment_name": "townhouses",
+        "description": "Luxurious apartment in a prime location with top-notch amenities.",
+        "price": "$700,000",
+        "status": "sale",
+        "area": "1,800 sq ft",
+        "location": "Kensington",
+        "facilities": [
+            "3 bedrooms",
+            "3 bathrooms",
+            "Swimming pool",
+            "Fitness center"
+        ],
+        "image": "https://i.postimg.cc/Jn7SjXJs/phil-hearing-IYfp2-Ixe9n-M-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "estate_title": "Cozy Family Home",
+        "segment_name": "apartments",
+        "description": "Charming family home perfect for relaxation and entertainment.",
+        "price": "$400,000",
+        "status": "rent",
+        "area": "2,000 sq ft",
+        "location": "Notting Hill",
+        "facilities": [
+            "4 bedrooms",
+            "2 bathrooms",
+            "Backyard",
+            "Fireplace"
+        ],
+        "image": "https://i.postimg.cc/V6VPByWT/redd-f-sej-Ly-CD2-UQE-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "estate_title": "Beachfront Villa",
+        "segment_name": "student housing",
+        "description": "Exquisite beachfront villa offering luxury and tranquility.",
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "3,500 sq ft",
+        "location": "Chelsea",
+        "facilities": [
+            "5 bedrooms",
+            "4 bathrooms",
+            "Private beach access",
+            "2 kitchen"
+        ],
+        "image": "https://i.postimg.cc/ZKfCqv2S/lycs-architecture-k-Udb-EEMc-Rw-E-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Rural Retreat",
+        "segment_name": "senior living communities",
+        "description": "Serene countryside retreat with picturesque views and abundant greenery.",
+        "price": "$350,000",
+        "status": "rent",
+        "area": "1,800 sq ft",
+        "location": "Hampstead",
+        "facilities": [
+            "3 bedrooms",
+            "2 bathrooms",
+            "Large garden",
+            "Deck"
+        ],
+        "image": "https://i.postimg.cc/VkxsSqF3/grant-durr-yb-Vh-YLhh1w-A-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "estate_title": "City Loft",
+        "segment_name": "Residential",
+        "description": "Stylish loft apartment in the heart of the city, offering urban living at its finest.",
+        "price": "$600,000",
+        "status": "rent",
+        "area": "1,200 sq ft",
+        "location": "Richmond",
+        "facilities": [
+            "2 bedrooms",
+            "2 bathrooms",
+            "Open-concept layout",
+            "City views"
+        ],
+        "image": "https://i.postimg.cc/VkGG4ghV/evelyn-paris-XJn-P4-L958ds-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "estate_title": "Mountain Cabin",
+        "segment_name": "vacation rentals",
+        "description": "Quaint mountain cabin nestled amidst towering trees and majestic peaks.",
+        "price": "$250,000",
+        "status": "sale",
+        "area": "1,000 sq ft",
+        "location": "Wandsworth",
+        "facilities": [
+            "2 bedrooms",
+            "1 bathroom",
+            "Cozy fireplace",
+            "1 kitchen"
+        ],
+        "image": "https://i.postimg.cc/XJXyL79F/mike-petrucci-18jo-WFj-Uh-Kw-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "estate_title": "Waterfront Retreat",
+        "segment_name": "Lakeside Living",
+        "description": "Tranquil waterfront retreat with breathtaking views of the lake and surrounding nature.",
+        "price": "$800,000",
+        "status": "sale",
+        "area": "2,800 sq ft",
+        "location": "Camden",
+        "facilities": [
+            "4 bedrooms",
+            "3 bathrooms",
+            "Private dock",
+            "Outdoor dining area"
+        ],
+        "image": "https://i.postimg.cc/VLQG5dyd/scott-webb-1ddol8rg-UH8-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "estate_title": "Suburban Sanctuary",
+        "segment_name": "Countryside Living",
+        "description": "Comfortable suburban home in a family-friendly neighborhood with excellent schools.",
+        "price": "$450,000",
+        "status": "rent",
+        "area": "2,200 sq ft",
+        "location": "Islington",
+        "facilities": [
+            "3 bedrooms",
+            "2 bathrooms",
+            "Spacious backyard",
+            "Community pool"
+        ],
+        "image": "https://i.postimg.cc/8PCLwGVT/dhruv-mehra-EIt-Acd-PP-kk-unsplash.jpg"
+    }
+]
