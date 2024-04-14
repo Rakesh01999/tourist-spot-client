@@ -30,7 +30,6 @@ const Slider = () => {
                 <SwiperSlide><span><img src={s5} alt="" /></span></SwiperSlide>
                 <SwiperSlide><span><img src={s6} alt="" /></span></SwiperSlide>
                 <SwiperSlide><span><img src={s7} alt="" /></span></SwiperSlide>
-                {/* <SwiperSlide><span><img src={s8} alt="" /></span></SwiperSlide> */}
                 <SwiperSlide><span><img src={s9} alt="" /></span></SwiperSlide>
                 <SwiperSlide><span><img src={s10} alt="" /></span></SwiperSlide>
                 ...

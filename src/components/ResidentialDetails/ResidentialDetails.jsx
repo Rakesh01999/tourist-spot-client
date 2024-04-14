@@ -52,6 +52,7 @@ const ResidentialDetails = () => {
                     <div className="flex gap-4 mt-4">
                         {/* <button  className="btn w-[128px] h-[57px] text-[18px]">Read</button>
                         <button  className="btn bg-[#50B1C9] text-white w-[128px] h-[57px] text-[18px]">Wishlist</button> */}
+                        
                     </div>
                 </div>
             </div>
