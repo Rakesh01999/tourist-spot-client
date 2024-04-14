@@ -1,6 +1,6 @@
 # EstateEase
 
-Welcome to EstateEase, your go-to platform for finding the perfect property!
+Welcome to EstateEase !
 
 Live Site: https://real-estate-d06a5.web.app/
 
