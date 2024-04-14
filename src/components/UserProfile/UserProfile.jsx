@@ -25,7 +25,6 @@ const UserProfile = () => {
             {/* ------- user profile ---------- */}
             <div>
                 {/* <h3 className='text-2xl md:text-3xl text-center font-bold text-violet-600'>Last Updated Profile</h3> */}
-                {/* <h3 className='text-xl md:text-3xl text-center font-semibold'> Current <span className='text-violet-500 font-bold'>User</span></h3> */}
 
                 {/* <div className='w-[370px] h-[400px] md:h-[554px] md:w-[1540px] rounded-3xl mx-auto bg-[#1313130D] p-10 md:p-20 flex flex-col items-center my-10'> */}
                 <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-violet-100 rounded-3xl flex flex-col items-center mb-10'>

@@ -16,7 +16,6 @@ const Residentials = () => {
                 <div className="text-center mt-3">
                     <h2 className="text-xl md:text-[40px] font-bold">Residentials </h2>
                 </div>
-                {/* <div className="md:w-[2000px] w-[500px] mx-20 md:mx-40 items-center"> */}
                 
                 {/* <div className='w-[500px]  md:w-[1540px] mx-auto md:mx-auto flex flex-col md:flex-row '> */}
                 <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12  rounded-3xl flex flex-col md:flex-row items-center mb-10'>
