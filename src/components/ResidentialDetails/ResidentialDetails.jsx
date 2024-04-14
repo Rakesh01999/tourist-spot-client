@@ -20,11 +20,11 @@ const ResidentialDetails = () => {
             <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-violet-300 rounded-3xl flex flex-col items-center mb-10'>
 
                 <div className="px-4">
-                    <img className="md:w-full md:h-full rounded-2xl mx-4" src={residential.image} alt="" />
+                    <img className="md:w-full md:h-full rounded-2xl mt-4 mx-4" src={residential.image} alt="" />
                 </div>
                 <div className="w-full p-6 text-xl md:text-[25px] mt-28 ">
                     <h2 className="text-2xl md:text-[40px] font-bold">{residential.estate_title}</h2>
-                    <p className="text-[25px] mt-4"><span className='font-bold'>Price:</span>  {residential.price}</p>
+                    <p className="text-[25px] mt-4"><span className='font-bold'>Id:</span>  {residential.id}</p>
                     <div className="border-b-2 my-3"></div>
                     <p className="my-6"><span className='font-bold'>Status: </span>{residential.status}</p>
                     <div className="border-b-2 my-3"></div>
