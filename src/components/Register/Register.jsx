@@ -111,7 +111,7 @@ const Register = () => {
                                 <input type={showPassword ? "text" : "password"} name="password" required placeholder="Password" className="input input-bordered" />
                                 <span className="absolute  bottom-11 right-2" onClick={() => setShowPassword(!showPassword)}>
                                     {
-                                        showPassword ? <FaEyeSlash className="text-2xl"></FaEyeSlash> : <FaEye className="text-2xl"></FaEye>
+                                        showPassword ? <FaEye className="text-2xl"></FaEye> : <FaEyeSlash className="text-2xl"></FaEyeSlash> 
                                     }
                                 </span>
                                 <label className="label">
