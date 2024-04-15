@@ -7,7 +7,7 @@ Live Site: https://real-estate-d06a5.web.app/
 ## Features and Characteristics
 - **Property Listings:** Browse through a wide range of residential properties.
 - **User Profiles:** User can create and manage his/her own user profile to save favorite listings and preferences.
-- **Advanced Search:** Use advanced search filters to find properties based on location, price range, amenities, and more.
+- **Detailed Property Information:** Each property listing on EstateEase includes detailed information such as property specifications, amenities, pricing details, high-quality images, providing users with all the necessary details to make informed decisions.
 - **Responsive Design:** Enjoy a seamless browsing experience across devices, including desktops, tablets, and mobile phones.
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
