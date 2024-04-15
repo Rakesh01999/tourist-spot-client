@@ -13,6 +13,9 @@ const MapView = () => {
             <div className='text-3xl text-center text-violet-600 font-bold my-5'>
                 <h1 class="animate__animated animate__fadeInDown">Map View</h1>
             </div>
+            <div className='text-2xl text-center text-green-500 font-bold my-5'>
+                <h1 class="animate__animated animate__fadeInRight">See residential property location in Map </h1>
+            </div>
 
             {/* ------------- Map ---------- */}
             {/* <div className='w-[500px] md:h-[800px]  md:w-[1540px] mx-auto bg-violet-600 rounded-3xl mt-5 mb-10 p-10 md:p-10 '> */}
