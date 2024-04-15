@@ -12,7 +12,6 @@ Live Site: https://real-estate-d06a5.web.app/
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
 ## NPM Packages Used
-- **react-router-dom**: Used for client-side routing in the React application.
 - **aos**: Animate on Scroll library for adding animations to elements as they appear in the viewport.
 - **animate.css**: A library of ready-to-use CSS animations for adding visual effects to elements.
 - **react-leaflet**: A React component library for integrating interactive maps using Leaflet.
