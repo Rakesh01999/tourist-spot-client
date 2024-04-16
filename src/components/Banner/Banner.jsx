@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import banner from '../../../public/images/banner.png'
+import banner1 from '../../../public/images/bnp1.png'
+import banner2 from '../../../public/images/bnp2.png'
+import banner3 from '../../../public/images/bnp3.png'
+import banner4 from '../../../public/images/bnp4.png'
+import banner5 from '../../../public/images/bnp5.png'
+
 import Slider from '../Slider/Slider';
 import { FaAnglesRight } from "react-icons/fa6";
 import 'animate.css';
@@ -10,33 +16,30 @@ const Banner = () => {
 
     return (
         <div>
-            <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-violet-100 rounded-3xl flex flex-col md:flex-row items-center mb-10'>
+            {/* <div className='hero max-w-[370px] max-h-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-violet-100 rounded-3xl flex flex-col md:flex-row items-center mb-10 bg-no-repeat' style={{ backgroundImage: 'url(https://i.postimg.cc/5NBfwD43/e-mens-SBe-SUc7-X00o-unsplash.jpg)' }}> */}
+            <div className='hero max-w-[370px]  md:max-w-[540px] lg:max-w-[1540px] mx-auto  rounded-3xl  mb-10 bg-no-repeat' style={{ backgroundImage: 'url(https://i.postimg.cc/5NBfwD43/e-mens-SBe-SUc7-X00o-unsplash.jpg)' }}>
 
-                <div className='w-full md:w-[50%]'>
-                    
-                    {/* <div className='text-xl md:text-3xl lg:text-3xl font-bold'> */}
-                    <div className='text-[10px] md:text-3xl lg:text-3xl font-bold'>
-                        <h1 class="animate__animated animate__fadeInLeft">
-                            Find a <span className='text-violet-600'>perfect property</span> Where you'll love <span className='text-violet-600'>to live</span>
+                <div className='hero-overlay bg-opacity-70 rounded-3xl flex flex-col md:flex-row items-center px-4 md:px-8 py-8 md:py-2'>
+                    <div className='rounded-3xl w-full md:w-[50%]'>
+
+                        {/* <div className='text-xl md:text-3xl lg:text-3xl font-bold'> */}
+                        <div className='text-[10px] md:text-3xl lg:text-3xl text-white font-bold'>
+                            <h1 class="animate__animated animate__fadeInLeft">
+                                Find a <span className='text-violet-300'>perfect property</span> Where you'll love <span className='text-violet-300'>to live</span>
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div className=' md:rounded-full mt-4 md:w-[50%] md:ml-[50px] lg:ml-32'>
+                        <h1 class="animate__animated animate__zoomIn">
+                            <img className='w-[250px] h-auto md:w-[400px] lg:w-full' src={banner5} alt="home" />
                         </h1>
                     </div>
                 </div>
 
-                {/* <div className='mt-4  md:w-[50%] md:ml-[50px] lg:ml-32'>
-                    <h1 class="animate__animated animate__zoomIn">
-                        <img className='w-full h-[180px] md:w-[400px] md:h-[300px]' src={banner} alt="home" />
-                    </h1>
-                </div> */}
-
-                <div className='mt-4 md:w-[50%] md:ml-[50px] lg:ml-32'>
-                    <h1 class="animate__animated animate__zoomIn">
-                        {/* <img className='w-full h-auto md:w-[400px] lg:w-full' src={banner} alt="home" /> */}
-                        <img className='w-[250px] h-auto md:w-[400px] lg:w-full' src={banner} alt="home" />
-                    </h1>
-                </div>
-
 
             </div>
+
 
             {/* Slider */}
             <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-10 bg-violet-200 rounded-3xl mb-10'>
