@@ -18,10 +18,13 @@ const Header = () => {
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/mapview">Map View</NavLink></li>
-        <li><NavLink to="/articles">Articles</NavLink></li>
+        {/* <li><NavLink to="/articles">Articles</NavLink></li> */}
         <li><NavLink to="/userProfile">User Profile</NavLink></li>
         <li><NavLink to="/updateProfile">Update Profile</NavLink></li>
         <li><NavLink to="/register">Register </NavLink></li>
+        <li><NavLink to="/allSpot">All Tourists Spot </NavLink></li>
+        <li><NavLink to="/addSpot">Add Tourists Spot </NavLink></li>
+        <li><NavLink to="/myList">My List </NavLink></li>
     </>
 
     return (
@@ -35,7 +38,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-[15px] md:text-[40px] font-bold text-violet-600">EstateEase</a>
+                <a className="btn btn-ghost text-[15px] md:text-[40px] font-bold text-violet-600">Tourizzo</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

@@ -23,6 +23,10 @@ import PrivateRoute from './components/Routes/PrivateRoute.jsx';
 import { register } from 'swiper/element/bundle';
 import Articles from './components/Articles/Articles.jsx';
 import MapView from './components/MapView/MapView.jsx';
+import AllSpot from './components/AllSpot/AllSpot.jsx';
+import AddSpot from './components/AddSpot/AddSpot.jsx';
+import MyList from './components/MyList/MyList.jsx';
+import UpdateSpot from './components/UpdateSpot/UpdateSpot.jsx';
 
 register();
 
@@ -77,6 +81,22 @@ const router = createBrowserRouter([
       {
         path: '/mapview',
         element: <MapView></MapView>
+      },
+      {
+        path: '/allSpot',
+        element: <AllSpot></AllSpot>
+      },
+      {
+        path: '/addSpot',
+        element: <PrivateRoute><AddSpot></AddSpot> </PrivateRoute>
+      },
+      {
+        path: '/updateSpot',
+        element: <UpdateSpot></UpdateSpot>
+      },
+      {
+        path: '/myList',
+        element: <PrivateRoute><MyList></MyList> </PrivateRoute>
       }
     ]
   },

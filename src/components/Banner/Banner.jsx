@@ -1,10 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import banner from '../../../public/images/banner.png'
-import banner1 from '../../../public/images/bnp1.png'
-import banner2 from '../../../public/images/bnp2.png'
-import banner3 from '../../../public/images/bnp3.png'
-import banner4 from '../../../public/images/bnp4.png'
 import banner5 from '../../../public/images/bnp5.png'
 
 import Slider from '../Slider/Slider';
@@ -16,7 +11,6 @@ const Banner = () => {
 
     return (
         <div>
-            {/* <div className='hero max-w-[370px] max-h-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-violet-100 rounded-3xl flex flex-col md:flex-row items-center mb-10 bg-no-repeat' style={{ backgroundImage: 'url(https://i.postimg.cc/5NBfwD43/e-mens-SBe-SUc7-X00o-unsplash.jpg)' }}> */}
             <div className='hero max-w-[370px]  md:max-w-[540px] lg:max-w-[1540px] mx-auto  rounded-3xl  mb-10 bg-no-repeat' style={{ backgroundImage: 'url(https://i.postimg.cc/5NBfwD43/e-mens-SBe-SUc7-X00o-unsplash.jpg)' }}>
 
                 <div className='hero-overlay bg-opacity-70 rounded-3xl flex flex-col md:flex-row items-center px-4 md:px-8 py-8 md:py-2'>
@@ -53,6 +47,9 @@ const Banner = () => {
                 </div>
                 <Slider />
             </div>
+
+
+
         </div>
     );
 };
