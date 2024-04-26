@@ -1,3 +1,4 @@
+import Swal from "sweetalert2";
 
 const AddSpot = () => {
 
@@ -6,25 +7,30 @@ const AddSpot = () => {
 
         const form = event.target;
 
-        const name = form.name.value;
-        const quantity = form.quantity.value;
-        const supplier = form.supplier.value;
-        const taste = form.taste.value;
-        const category = form.category.value;
-        const details = form.details.value;
+        const spotName = form.spotName.value;
         const photo = form.photo.value;
+        const shortDescription = form.shortDescription.value;
+        const countryName = form.countryName.value;
+        const location = form.location.value;
+        const averageCost = form.averageCost.value;
+        const seasonality = form.seasonality.value;
+        const travelTime = form.travelTime.value;
+        const totalVisitorsPerYear = form.totalVisitorsPerYear.value;
+        const name = form.name.value;
+        const email = form.email.value;
 
-        const newCoffee = { name, quantity, supplier, taste, category, details, photo }
+        const newSpot = { spotName, photo, shortDescription, countryName, location, averageCost, seasonality, travelTime, totalVisitorsPerYear, name, email }
 
-        console.log(newCoffee);
+        console.log(newSpot);
 
         // send data to the server
-        fetch('http://localhost:5000/coffee', {
+
+        fetch('http://localhost:5000/spot', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
             },
-            body: JSON.stringify(newCoffee)
+            body: JSON.stringify(newSpot)
         })
             .then(res => res.json())
             .then(data => {
@@ -32,7 +38,7 @@ const AddSpot = () => {
                 if (data.insertedId) {
                     Swal.fire({
                         title: 'Success!',
-                        text: 'Coffee Added Successfully',
+                        text: 'Tourists Spot Added Successfully',
                         icon: 'success',
                         confirmButtonText: 'Cool'
                     })
@@ -42,10 +48,18 @@ const AddSpot = () => {
 
     return (
         <div>
-            <h2 className="text-2xl text-center font-semibold my-3">Add Tourists Spot</h2>
+            <h2 className="text-2xl text-center text-lime-600 font-bold my-3">Add Tourists Spot</h2>
             <div className="bg-[#F4F3F0] p-4 md:p-8 lg:p-24">
                 <h2 className="text-3xl font-extrabold mb-4">Add a Spot</h2>
                 <form onSubmit={handleAddSpot} className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+
+                    {/* Tourists Spot Name */}
+                    <div className="form-control col-span-2 lg:col-span-4">
+                        <label className="label">
+                            <span className="label-text">Tourists_Spot_Name</span>
+                        </label>
+                        <input type="text" name="spotName" placeholder="Tourists_Spot_Name" className="input input-bordered w-full" />
+                    </div>
                     {/* Photo URL */}
                     <div className="form-control col-span-2 lg:col-span-4">
                         <label className="label">
@@ -53,13 +67,14 @@ const AddSpot = () => {
                         </label>
                         <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered w-full" />
                     </div>
-                    {/* Spot Name */}
-                    <div className="form-control">
+                    {/* short description */}
+                    <div className="form-control col-span-2 lg:col-span-4">
                         <label className="label">
-                            <span className="label-text">Tourists_Spot_Name</span>
+                            <span className="label-text">Short_Description</span>
                         </label>
-                        <input type="text" name="spotName" placeholder="Tourists_Spot_Name" className="input input-bordered w-full" />
+                        <input type="text" name="shortDescription" placeholder="Short_Description" className="input input-bordered w-full" />
                     </div>
+
                     {/* Country Name */}
                     <div className="form-control">
                         <label className="label">
@@ -74,13 +89,7 @@ const AddSpot = () => {
                         </label>
                         <input type="text" name="location" placeholder="Location" className="input input-bordered w-full" />
                     </div>
-                    {/* short description */}
-                    <div className="form-control">
-                        <label className="label">
-                            <span className="label-text">Short_Description</span>
-                        </label>
-                        <input type="text" name="shortDescription" placeholder="Short_Description" className="input input-bordered w-full" />
-                    </div>
+
                     {/* average_cost */}
                     <div className="form-control">
                         <label className="label">
@@ -109,16 +118,24 @@ const AddSpot = () => {
                         </label>
                         <input type="text" name="totalVisitorsPerYear" placeholder="totalVisitorsPerYear" className="input input-bordered w-full" />
                     </div>
-                    {/* totalVisitorsPerYear */}
-                    <div className="form-control col-span-2 lg:col-span-4">
+                    {/* User Name */}
+                    <div className="form-control ">
                         <label className="label">
-                            <span className="label-text">TotalVisitorsPerYear</span>
+                            <span className="label-text">User Name</span>
                         </label>
-                        <input type="text" name="totalVisitorsPerYear" placeholder="totalVisitorsPerYear" className="input input-bordered w-full" />
+                        <input type="text" name="name" placeholder="User Name" className="input input-bordered w-full" />
                     </div>
+                    {/* User Email */}
+                    <div className="form-control ">
+                        <label className="label">
+                            <span className="label-text">User Email</span>
+                        </label>
+                        <input type="text" name="email" placeholder="User Email" className="input input-bordered w-full" />
+                    </div>
+
                     {/* Submit Button */}
                     <div className="form-control col-span-full">
-                        <input type="submit" value="Add Coffee" className="btn bg-lime-400" />
+                        <input type="submit" value="Add Spot" className="btn bg-lime-400" />
                     </div>
                 </form>
             </div>

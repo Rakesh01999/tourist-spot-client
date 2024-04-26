@@ -27,6 +27,7 @@ import AllSpot from './components/AllSpot/AllSpot.jsx';
 import AddSpot from './components/AddSpot/AddSpot.jsx';
 import MyList from './components/MyList/MyList.jsx';
 import UpdateSpot from './components/UpdateSpot/UpdateSpot.jsx';
+import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
 
 register();
 
@@ -84,7 +85,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/allSpot',
-        element: <AllSpot></AllSpot>
+        element: <AllSpot></AllSpot>,
+        loader: () => fetch('http://localhost:5000/spot')
       },
       {
         path: '/addSpot',
@@ -97,6 +99,11 @@ const router = createBrowserRouter([
       {
         path: '/myList',
         element: <PrivateRoute><MyList></MyList> </PrivateRoute>
+      },
+      {
+        path: '/viewDetails/:id',
+        element: <ViewDetails></ViewDetails>,
+        loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
       }
     ]
   },

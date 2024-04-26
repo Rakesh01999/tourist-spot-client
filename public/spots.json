@@ -1,19 +1,19 @@
 [
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/yxbLnCLQ/mamun-srizon-v6-A4n-Xxqk-Fo-unsplash.jpg",
       "tourists_spot_name": "Sundarban",
       "country_Name": "Bangladesh",
       "location": "Khulna",
       "short_description": "Mangrove forest in the coastal region of the Bay of Bengal.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
+      "average_cost": 6500,
+      "seasonality": "winter",
+      "travel_time": "6 days",
       "totaVisitorsPerYear": 10000,
       "User_Email": "user_email_here",
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/zfMXqBXD/shomitro-kumar-ghosh-f-Urr-Q4y-ENI-unsplash.jpg",
       "tourists_spot_name": "Cox's Bazar",
       "country_Name": "Bangladesh",
       "location": "Chittagong",
@@ -26,7 +26,7 @@
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/G2wwMsmD/md-nazmul-islam-nayeem-Bixju-B4xe0w-unsplash.jpg",
       "tourists_spot_name": "Rangamati",
       "country_Name": "Bangladesh",
       "location": "Chittagong Hill Tracts",
@@ -39,26 +39,26 @@
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/qq8p4xz4/iraj-ishtiak-4hx4-Tlg8ii-I-unsplash.jpg",
       "tourists_spot_name": "Bandarban",
       "country_Name": "Bangladesh",
-      "location": "Chittagong Hill Tracts",
+      "location": "Hill Tracts of Chittagong",
       "short_description": "Hill district famous for its lush greenery and tribal communities.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
+      "average_cost": 19000,
+      "seasonality": "summer",
       "travel_time": "7 days",
       "totaVisitorsPerYear": 10000,
       "User_Email": "user_email_here",
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/cL5GqbXf/md-mosarraf-r15gw3-Zx-Qj-E-unsplash.jpg",
       "tourists_spot_name": "Saint Martin's Island",
       "country_Name": "Bangladesh",
       "location": "Cox's Bazar",
       "short_description": "Beautiful coral island known for its pristine beaches and clear blue waters.",
       "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
+      "seasonality": "summer",
       "travel_time": "7 days",
       "totaVisitorsPerYear": 10000,
       "User_Email": "user_email_here",
