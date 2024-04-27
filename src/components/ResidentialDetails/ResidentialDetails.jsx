@@ -7,7 +7,7 @@ const ResidentialDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id);
     const residential = residentials.find((residential) => residential.id === idInt);
-
+ 
     return (
         <div>
             <Helmet>

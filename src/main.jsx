@@ -93,16 +93,19 @@ const router = createBrowserRouter([
         element: <PrivateRoute><AddSpot></AddSpot> </PrivateRoute>
       },
       {
-        path: '/updateSpot',
-        element: <UpdateSpot></UpdateSpot>
+        path: '/updateSpot/:id',
+        element: <UpdateSpot></UpdateSpot>,
+        loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
       },
       {
         path: '/myList',
-        element: <PrivateRoute><MyList></MyList> </PrivateRoute>
+        element: <PrivateRoute><MyList></MyList> </PrivateRoute>,
+        loader: () => fetch('http://localhost:5000/spot')
+        // loader: ({params}) => fetch(`http://localhost:5000/spot/${params.email}`)
       },
       {
         path: '/viewDetails/:id',
-        element: <ViewDetails></ViewDetails>,
+        element: <PrivateRoute><ViewDetails></ViewDetails></PrivateRoute> ,
         loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
       }
     ]

@@ -42,6 +42,7 @@ const AddSpot = () => {
                         icon: 'success',
                         confirmButtonText: 'Cool'
                     })
+                    location.reload() ;
                 }
             })
     }

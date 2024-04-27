@@ -20,7 +20,7 @@ const Header = () => {
         <li><NavLink to="/mapview">Map View</NavLink></li>
         {/* <li><NavLink to="/articles">Articles</NavLink></li> */}
         <li><NavLink to="/userProfile">User Profile</NavLink></li>
-        <li><NavLink to="/updateProfile">Update Profile</NavLink></li>
+        {/* <li><NavLink to="/updateProfile">Update Profile</NavLink></li> */}
         <li><NavLink to="/register">Register </NavLink></li>
         <li><NavLink to="/allSpot">All Tourists Spot </NavLink></li>
         <li><NavLink to="/addSpot">Add Tourists Spot </NavLink></li>
