@@ -3,6 +3,9 @@ import { CgProfile } from "react-icons/cg";
 import './Header.css';
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { Tooltip } from 'react-tooltip'
+// import ReactTooltip from 'react-tooltip'
+
 
 const Header = () => {
 
@@ -45,7 +48,18 @@ const Header = () => {
         <li><NavLink to="/addSpot">Add Tourists Spot </NavLink></li>
         <li><NavLink to="/myList">My List </NavLink></li>
         <li>
+            {/* theme controller ---------- */}
+            <div>
+                <label className="flex cursor-pointer gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5" /><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" /></svg>
 
+                    <input type="checkbox" onClick={handleToggle}
+                        checked={theme == "light" ? false : true}
+                        value="synthwave" className="toggle theme-controller" />
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </label>
+            </div>
         </li>
     </>
 
@@ -68,18 +82,7 @@ const Header = () => {
                 </ul>
             </div>
 
-            {/* theme controller ---------- */}
-            <div>
-                <label className="flex cursor-pointer gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5" /><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" /></svg>
 
-                    <input type="checkbox" onClick={handleToggle}
-                        checked={theme == "light" ? false : true}
-                        value="synthwave" className="toggle theme-controller" />
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                </label>
-            </div>
 
             {/* <div className="md:navbar-end flex justify-end"> */}
             <div className="md:navbar-end">
@@ -91,9 +94,12 @@ const Header = () => {
                         {/* <span>{user.displayName}</span> */}
                         <span>
                             <div className="tooltip tooltip-bottom" data-tip={user.displayName}>
+                            {/* <div> */}
                                 {/* <button className="btn">Hover me</button> */}
                                 <img className="w-[40px] h-[40px]  md:w-[60px] md:h-[60px] border-2 border-violet-600  rounded-full mr-1" src={user.photoURL} alt="" />
                             </div>
+
+                            
                         </span>
                         {/* <a onClick={handleLogOut} className="btn bg-[#59C6D2] text-white md:w-[116px] h-[57px] text-[20px]">Log out</a> */}
                         <a onClick={handleLogOut} className="btn btn-primary btn-sm text-white  md:w-[116px] md:h-[57px] md:text-[20px]">Log out</a>
