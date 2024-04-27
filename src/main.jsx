@@ -29,6 +29,9 @@ import MyList from './components/MyList/MyList.jsx';
 import UpdateSpot from './components/UpdateSpot/UpdateSpot.jsx';
 import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
 import Residentials from './components/Residentials/Residentials.jsx';
+import AddCountry from './components/AddCountry/AddCountry.jsx';
+import Countries from './components/Countries/Countries.jsx';
+import CountrySpots from './components/CountrySpots/CountrySpots.jsx';
 
 register();
 
@@ -114,6 +117,20 @@ const router = createBrowserRouter([
         path: '/viewDetails/:id',
         element: <PrivateRoute><ViewDetails></ViewDetails></PrivateRoute> ,
         loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
+      },
+      {
+        path: '/countries',
+        element: <Countries></Countries>,
+        loader: () => fetch('http://localhost:5000/country')
+      },
+      {
+        path: '/addCountry',
+        element: <AddCountry></AddCountry>
+      },
+      {
+        path: '/countrySpots/:id',
+        element: <CountrySpots></CountrySpots>,
+        loader: ({params}) => fetch(`http://localhost:5000/country/${params.id}`)
       }
     ]
   },
