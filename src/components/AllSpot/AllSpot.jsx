@@ -1,4 +1,3 @@
-// AllSpot.jsx
 
 
 import { useLoaderData } from "react-router-dom";
@@ -9,7 +8,6 @@ const AllSpot = () => {
 
     const spots  = useLoaderData();
     // const [spots, setSpots] = useState(loadedSpots);
-    
 
 
     return (

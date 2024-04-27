@@ -4,6 +4,7 @@ const ViewDetails = () => {
 
     const spot = useLoaderData();
     const { spotName, photo, shortDescription, countryName, location, averageCost, seasonality, travelTime, totalVisitorsPerYear, name, email } = spot;
+    
     return (
         <div>
             <h2 className="text-4xl my-3 font-bold text-center text-lime-500">Details </h2>

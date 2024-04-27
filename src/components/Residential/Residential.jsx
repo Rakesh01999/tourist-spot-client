@@ -4,22 +4,27 @@ import { IoPricetags } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiSolidArea } from "react-icons/bi";
 import { GrStatusCriticalSmall } from "react-icons/gr";
+import { FaMap } from "react-icons/fa";
+import { FaCarSide } from "react-icons/fa";
 
-const Residential = ({ residential }) => {
-    const { id, estate_title, image, area, location, price, status } = residential;
-    
+const Residential = ({ spot }) => {
+    // const { id, estate_title, image, area, location, price, status } = residential;
+
+    const { spotName, photo, shortDescription, countryName, location, averageCost, seasonality, travelTime, totalVisitorsPerYear, name, email } = spot;
+
     return (
         <div className="my-10 mx-auto">
             {/* <div className="max-w-full bg-opacity-10 rounded-3xl shadow-xl flex flex-col items-center mb-10"> */}
-            <div className="max-w-full bg-violet-300 rounded-3xl shadow-2xl flex flex-col items-center mb-10">
+            <div className="max-w-full bg-lime-200 rounded-3xl shadow-2xl flex flex-col items-center mb-10">
                 <figure className="md:px-10 mt-10">
-                    <img src={image} alt="house" className="rounded-xl" />
+                    <img src={photo} alt="house" className="  rounded-xl" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title text-xl lg:text-2xl text-blue-500 mx-auto font-bold my-4">{estate_title}</h2>
-                    <div className="flex gap-2 items-center text-xl text-green-700 md:text-2xl">
-                        <IoPricetags className="text-green-200" />
-                        <p>{price}</p>
+                    <h2 className="card-title text-xl lg:text-2xl text-blue-500 mx-auto font-bold my-4">{spotName}</h2>
+                    <div className="flex gap-2 items-center text-xl text-green-800 md:text-2xl">
+                        {/* <IoPricetags className="text-green-200" /> */}
+                        <FaMap className="" />
+                        <p>{countryName}</p>
                     </div>
                     <div className="border-b-2 my-4"></div>
                     <div className="flex flex-col gap-4">
@@ -28,19 +33,24 @@ const Residential = ({ residential }) => {
                             <p>{location}</p>
                         </div>
                         <div className="flex gap-2 items-center text-lg md:text-xl">
-                            <BiSolidArea />
-                            <p>{area}</p>
+                            {/* <BiSolidArea /> */}
+                            {/* <p>{seasonality}</p> */}
+                        </div>
+                        <div className="flex gap-2 items-center text-lg md:text-xl">
+                            <FaCarSide />
+                            <p><span className="font-bold">Travel Time :</span> {travelTime}</p>
                         </div>
                         <div className="flex items-center gap-2 text-lg md:text-xl">
-                            <GrStatusCriticalSmall />
-                            <p><span className="font-bold">Status :</span> {status}</p>
+                            {/* <GrStatusCriticalSmall /> */}
+                            <IoPricetags />
+                            <p><span className="font-bold">Average Cost :</span> {averageCost}</p>
                         </div>
                     </div>
                 </div>
-                <Link to={`/residential/${residential.id}`}>
+                <Link to={`/viewDetails/${spot._id}`}>
                     <div className="text-center mb-2">
-                        <button className="btn btn-primary md:w-[200px] rounded-full md:text-lg text-white mb-4">
-                            View Property
+                        <button className="btn btn-outline btn-info md:w-[200px] rounded-full md:text-lg text-white mb-4">
+                            View Details
                         </button>
                     </div>
                 </Link>

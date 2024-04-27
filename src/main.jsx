@@ -28,6 +28,7 @@ import AddSpot from './components/AddSpot/AddSpot.jsx';
 import MyList from './components/MyList/MyList.jsx';
 import UpdateSpot from './components/UpdateSpot/UpdateSpot.jsx';
 import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
+import Residentials from './components/Residentials/Residentials.jsx';
 
 register();
 
@@ -48,12 +49,18 @@ const router = createBrowserRouter([
       },
       {
         path: '/residential',
-        element: <Residential></Residential>
+        element: <Residential></Residential>,
+        loader: () => fetch('http://localhost:5000/spot')
       },
+      // {
+      //   path: '/residentials',
+      //   element: <Residentials></Residentials> ,
+      //   loader: () => fetch('http://localhost:5000/spot')
+      // },
       {
         path: '/residential/:id',
         element: <PrivateRoute><ResidentialDetails></ResidentialDetails></PrivateRoute> ,
-        loader: () => fetch('../residentials.json')
+        loader: () => fetch('http://localhost:5000/spot')
       },
       {
         path: '/login',

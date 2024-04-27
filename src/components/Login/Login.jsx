@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase/firebase.config';
+import Swal from 'sweetalert2';
 
 const Login = () => {
     const [usr, setUsr] = useState(null);
@@ -31,13 +32,21 @@ const Login = () => {
                 e.target.reset();
                 setUsr(loggedUsr);
                 // navigate('/');
-
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Logged In Successfully',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                })
+                
                 // navigate after login
+                // toast.success('Successfully Logged in');
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.error(error);
                 toast.error('invalid email or password');
+
             })
         // location.reload()
     }
@@ -53,9 +62,10 @@ const Login = () => {
                 e.target.reset();
                 setUsr(loggedUsr);
                 console.log(usr.displayName);
-
+                
                 // navigate after login
                 navigate(location?.state ? location.state : '/')
+                toast.success('Successfully Logged in');
 
             })
             .catch(error => {
@@ -83,6 +93,7 @@ const Login = () => {
 
                 // navigate after login
                 navigate(location?.state ? location.state : '/')
+                toast.success('Successfully Logged in');
 
             })
             .catch(error => {

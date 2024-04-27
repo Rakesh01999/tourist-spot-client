@@ -21,7 +21,7 @@ const Header = () => {
         {/* <li><NavLink to="/articles">Articles</NavLink></li> */}
         <li><NavLink to="/userProfile">User Profile</NavLink></li>
         {/* <li><NavLink to="/updateProfile">Update Profile</NavLink></li> */}
-        <li><NavLink to="/register">Register </NavLink></li>
+        {/* <li><NavLink to="/register">Register </NavLink></li> */}
         <li><NavLink to="/allSpot">All Tourists Spot </NavLink></li>
         <li><NavLink to="/addSpot">Add Tourists Spot </NavLink></li>
         <li><NavLink to="/myList">My List </NavLink></li>
@@ -47,6 +47,8 @@ const Header = () => {
             </div>
             {/* <div className="md:navbar-end flex justify-end"> */}
             <div className="md:navbar-end">
+
+
                 {
                     user ? <>
                         {/* <span>{user.email}</span> */}
@@ -54,20 +56,28 @@ const Header = () => {
                         <span>
                             <div className="tooltip tooltip-bottom" data-tip={user.displayName}>
                                 {/* <button className="btn">Hover me</button> */}
-                                <img className="w-[40px] md:w-[60px] md:h-[60px] border-2 border-violet-600  rounded-full" src={user.photoURL} alt="" />
+                                <img className="w-[40px] h-[40px]  md:w-[60px] md:h-[60px] border-2 border-violet-600  rounded-full mr-1" src={user.photoURL} alt="" />
                             </div>
                         </span>
                         {/* <a onClick={handleLogOut} className="btn bg-[#59C6D2] text-white md:w-[116px] h-[57px] text-[20px]">Log out</a> */}
-                        <a onClick={handleLogOut} className="btn btn-primary text-white  md:w-[116px] md:h-[57px] md:text-[20px]">Log out</a>
+                        <a onClick={handleLogOut} className="btn btn-primary btn-sm text-white  md:w-[116px] md:h-[57px] md:text-[20px]">Log out</a>
                     </>
                         :
-                        <Link to="/login">
-                            <div className="flex items-center md:gap-2">
-                                <CgProfile className="text-[50px]" />
-                                {/* <span className="btn bg-[#59C6D2] text-white md:w-[116px] md:h-[57px] md:text-[20px]">Log in</span> */}
-                                <span className="btn btn-primary text-white md:w-[116px] md:h-[57px] md:text-[20px]">Log in</span>
-                            </div>
-                        </Link>
+                        <div className="flex md:flex-row gap-2">
+                            
+                            <Link to="/login">
+                                <div className="flex items-center md:gap-2">
+                                    {/* <CgProfile className="text-[50px]" /> */}
+                                    {/* <span className="btn bg-[#59C6D2] text-white md:w-[116px] md:h-[57px] md:text-[20px]">Log in</span> */}
+                                    <span className="btn btn-primary btn-sm text-white md:w-[116px] md:h-[57px] md:text-[20px]">Log in</span>
+                                </div>
+                            </Link>
+                            <Link to="/register">
+                                <div className="flex items-center md:gap-2">
+                                    <span className="btn btn-sm bg-lime-300 text-blue-700  md:w-[116px] md:h-[57px] md:text-[20px]">Register</span>
+                                </div>
+                            </Link>
+                        </div>
                 }
             </div>
         </div>

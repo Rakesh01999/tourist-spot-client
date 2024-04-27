@@ -5,7 +5,9 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { GrStatusCriticalSmall } from 'react-icons/gr';
 import { IoPeople, IoPricetags } from 'react-icons/io5';
 import { MdOutlineFindInPage } from 'react-icons/md';
+import { FaMap } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { FaCarSide } from "react-icons/fa";
 
 const SpotCard = ({ spot }) => {
 
@@ -30,29 +32,31 @@ const SpotCard = ({ spot }) => {
                             <p> {shortDescription}</p>
                         </div>
                     </div>
-                    <div className='flex items-center gap-3'>
-                        <BiSolidArea />
-                        <p className='text-[16px] font-semibold'> <span className='font-bold'>  Location: </span> {location}</p>
+                    <div className='flex gap-4 items-center'>
+                        {/* <CiLocationOn className='text-[30px]' /> */}
+                        <FaMap className='text-[30px]' />
+                        <span>Country : {countryName}</span>
                     </div>
-                    
+
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <div className='flex gap-4'>
                             <p className='text-[16px] font-bold'> </p>
                             {/* <p className='bg-[#23BE0A0D] text-[#23BE0A] text-[16px]'>{book.tags[0]}</p>
                             <p className='bg-[#23BE0A0D] text-[#23BE0A] text-[16px]'>{book.tags[1]}</p> */}
                         </div>
-                        <div className='flex gap-4 items-center'>
-                            <CiLocationOn className='text-[30px]' />
-                            <span>Country : {countryName}</span>
+                        <div className='flex items-center gap-3'>
+                            <CiLocationOn className='text-[24px] ' />
+                            <p className='text-[16px] font-semibold'> <span className='font-bold'>  Location: </span> {location}</p>
                         </div>
+
                     </div>
 
                     <div className='flex items-center gap-4'>
                         <IoPeople />
-                        <p>Total Visitors Per Year:  {totalVisitorsPerYear}</p>
+                        <p>Total Visitors Per Year:  {totalVisitorsPerYear} people</p>
                     </div>
                     <div className='flex items-center gap-4'>
-
+                        <FaCarSide></FaCarSide>
                         <p>Travel-Time : {travelTime}</p>
                     </div>
                     <div className='flex flex-col md:flex-row gap-4'>
@@ -64,8 +68,8 @@ const SpotCard = ({ spot }) => {
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
     );
 };
