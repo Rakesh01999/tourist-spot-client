@@ -12,14 +12,13 @@ const CountrySpot = ({spot}) => {
         <div>
             <div className='bg-lime-200 shadow-xl w-full lg:max-w-[1540px] px-4 md:px-8 py-8 md:py-12 rounded-3xl flex flex-col md:flex-row items-center mb-10 gap-6 md:text-xl mx-auto'>
 
-                <div className='w-[150px] h-[200px]'>
-                    <img src={photo} alt="Book" />
+                <div className='w-[150px] h-[200px] md:w-[250px]'>
+                    <img src={photo} alt="photo" />
                 </div>
                 <div className="flex flex-col gap-4">
                     <h2 className="text-[24px] font-bold">{spotName}</h2>
                     <div className='flex flex-col md:flex-row gap-4'>
                         <div className='flex items-center gap-4'>
-
                             <p> {shortDescription}</p>
                         </div>
                     </div>
@@ -50,7 +49,7 @@ const CountrySpot = ({spot}) => {
                         <FaCarSide></FaCarSide>
                         <p>Travel-Time : {travelTime}</p>
                     </div>
-                    <div className='flex flex-col md:flex-row gap-4'>
+                    <div className='flex flex-col lg:flex-row gap-4'>
                         <p className='bg-[#328EFF26] rounded-2xl text-[#328EFF] text-[16px] w-[200px] p-3'>Suitable Season: {seasonality}</p>
                         <p className='bg-[#FFAC3326] rounded-2xl text-red-500 text-[16px] w-[174px] p-3'> Average cost: {averageCost}</p>
                         <Link to={`/viewDetails/${spot._id}`}>

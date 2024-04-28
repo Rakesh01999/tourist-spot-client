@@ -208,43 +208,43 @@
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/bNcTf2ZL/valeriy-ryasnyanskiy-L21l-WCq-Tlf-E-unsplash.jpg",
       "tourists_spot_name": "Langkawi",
       "country_Name": "Malaysia",
       "location": "Langkawi District",
       "short_description": "Archipelago known for its stunning beaches, clear waters, and natural beauty.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "average_cost": 19000,
+      "seasonality": "summer",
+      "travel_time": "8 days",
+      "totaVisitorsPerYear": 20000,
+      "User_Email": "mohansarkar@gmail.com",
+      "User_Name": "Mohan Sarkar"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/3wSBsSGD/kah-hay-chee-xu-Elil9fmfg-unsplash.jpg",
       "tourists_spot_name": "Penang",
       "country_Name": "Malaysia",
       "location": "Penang State",
       "short_description": "Island famous for its historic George Town, vibrant street art, and delicious cuisine.",
       "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "seasonality": "winter",
+      "travel_time": "6 days",
+      "totaVisitorsPerYear": 20000,
+      "User_Email": "mohansarkar@gmail.com",
+      "User_Name": "Mohan Sarkar"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/NMFXRQ5K/geio-tischler-7hww7t6-NLcg-unsplash.jpg",
       "tourists_spot_name": "Cameron Highlands",
       "country_Name": "Malaysia",
       "location": "Pahang State",
       "short_description": "Hill station known for its tea plantations, cool climate, and scenic landscapes.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "average_cost": 29000,
+      "seasonality": "winter",
+      "travel_time": "8 days",
+      "totaVisitorsPerYear": 27000,
+      "User_Email": "mohansarkar@gmail.com",
+      "User_Name": "Mohan Sarkar"
     },
     {
       "image": "image_url_here",
@@ -273,17 +273,17 @@
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/bJwxLQFN/yaopey-yong-b5t-LDqc5dvo-unsplash.jpg",
       "tourists_spot_name": "Hoi An Ancient Town",
       "country_Name": "Vietnam",
       "location": "Quang Nam Province",
       "short_description": "Well-preserved ancient town known for its narrow streets, traditional architecture, and lantern-lit evenings.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "average_cost": 19000,
+      "seasonality": "winter",
+      "travel_time": "5 days",
+      "totaVisitorsPerYear": 25000,
+      "User_Email": "riaz@babbar.com",
+      "User_Name": "Riaz Babbar"
     },
     {
       "image": "image_url_here",
@@ -293,36 +293,36 @@
       "short_description": "UNESCO World Heritage site known for its spectacular cave systems, underground rivers, and limestone karsts.",
       "average_cost": "average_cost_here",
       "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "travel_time": "8 days",
+      "totaVisitorsPerYear": 28000,
+      "User_Email": "riaz@babbar.com",
+      "User_Name": "Riaz Babbar"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/k58zqdnt/oliver-vrmumizr3-B0-unsplash.jpg",
       "tourists_spot_name": "Mekong Delta",
       "country_Name": "Vietnam",
       "location": "Mekong Delta",
       "short_description": "Rich agricultural region known for its maze of rivers, floating markets, and fertile rice paddies.",
       "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
+      "seasonality": "winter",
       "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "totaVisitorsPerYear": 17600,
+      "User_Email": "riaz@babbar.com",
+      "User_Name": "Riaz Babbar"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/cJpWBmJf/manish-tulaskar-85k0a-As1a94-unsplash.jpg",
       "tourists_spot_name": "Angkor Wat",
       "country_Name": "Cambodia",
       "location": "Siem Reap Province",
       "short_description": "Largest religious monument in the world, known for its stunning architecture and intricate carvings.",
       "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "seasonality": "summer",
+      "travel_time": " days",
+      "totaVisitorsPerYear": 18000,
+      "User_Email": "akashdev@gmail.com",
+      "User_Name": "Akash Dev"
     },
     {
       "image": "image_url_here",
@@ -351,30 +351,30 @@
       "User_Name": "user_name_here"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/7LfPVhnr/christoph-theisinger-Db-Xcks-NVFDM-unsplash.jpg",
       "tourists_spot_name": "Kep",
       "country_Name": "Cambodia",
       "location": "Kep Province",
       "short_description": "Seaside town known for its relaxed atmosphere, seafood, and nearby pepper plantations.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "average_cost": 15000,
+      "seasonality": "summer",
+      "travel_time": "6 days",
+      "totaVisitorsPerYear": 16000,
+      "User_Email": "akashdev@gmail.com",
+      "User_Name": "Akash Dev"
     },
     {
-      "image": "image_url_here",
+      "image": "https://i.postimg.cc/prym5Ccz/Cameron-Highlands5.jpg",
       "tourists_spot_name": "Bokor National Park",
       "country_Name": "Cambodia",
       "location": "Kampot Province",
       "short_description": "Protected area known for its lush forests, wildlife, and French colonial-era ruins.",
-      "average_cost": "average_cost_here",
-      "seasonality": "summer, winter",
-      "travel_time": "7 days",
-      "totaVisitorsPerYear": 10000,
-      "User_Email": "user_email_here",
-      "User_Name": "user_name_here"
+      "average_cost": 21000,
+      "seasonality": "winter",
+      "travel_time": "9 days",
+      "totaVisitorsPerYear": 33000,
+      "User_Email": "akashdev@gmail.com",
+      "User_Name": "Akash Dev"
     }
   ]
   

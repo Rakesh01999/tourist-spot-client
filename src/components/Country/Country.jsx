@@ -16,15 +16,15 @@ const Country = ({ country }) => {
 
 
             <Link to={`/countrySpots/${country._id}`}>
-                <div className="text-center mb-2">
+                <div className="hover:shadow-2xl hover:rounded-3xl hover:bg-orange-300 text-center mb-2">
                     {/* <button className="btn btn-outline btn-info md:w-[200px] rounded-full md:text-lg text-white mb-4"> */}
                     <button className="">
                         {/* View Details */}
-                        <div className="max-w-full md:h-[600px] bg-orange-100 rounded-3xl shadow-2xl flex flex-col items-center mb-10">
+                        <div className="max-w-full md:h-[600px]  rounded-3xl shadow-2xl flex flex-col items-center mb-10">
                             <figure className="md:px-10 mt-10">
                                 <img src={photo} alt="house" className="  rounded-xl" />
                             </figure>
-                            <div className="card-body">
+                            <div className="card-body hover:text-green-600">
                                 {/* <h2 className="card-title text-xl lg:text-2xl text-blue-500 mx-auto font-bold my-4">{spotName}</h2> */}
                                 <div className="flex gap-2 items-center text-xl text-green-800 md:text-2xl">
                                     {/* <IoPricetags className="text-green-200" /> */}

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Swal from "sweetalert2";
 
 const AddSpot = () => {
@@ -49,6 +50,9 @@ const AddSpot = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Tourizzo | Add Tourists Spot</title>
+            </Helmet>
             <h2 className="text-2xl text-center text-lime-600 font-bold my-3">Add Tourists Spot</h2>
             <div className="bg-[#F4F3F0] p-4 md:p-8 lg:p-24">
                 <h2 className="text-3xl font-extrabold mb-4">Add a Spot</h2>

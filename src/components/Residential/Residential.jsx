@@ -1,7 +1,7 @@
 import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IoPricetags } from "react-icons/io5";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaRegCalendarDays } from "react-icons/fa6";
 import { BiSolidArea } from "react-icons/bi";
 import { GrStatusCriticalSmall } from "react-icons/gr";
 import { FaMap } from "react-icons/fa";
@@ -14,7 +14,7 @@ const Residential = ({ spot }) => {
     const { spotName, photo, shortDescription, countryName, location, averageCost, seasonality, travelTime, totalVisitorsPerYear, name, email } = spot;
 
     return (
-        <div className="my-10 mx-auto">
+        <div className=" my-10 mx-auto">
             {/* <div className="max-w-full bg-opacity-10 rounded-3xl shadow-xl flex flex-col items-center mb-10"> */}
 
             <Zoom>
@@ -30,7 +30,7 @@ const Residential = ({ spot }) => {
                             <p>{countryName}</p>
                         </div>
                         <div className="border-b-2 my-4"></div>
-                        <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-4 hover:text-blue-700">
                             <div className="flex gap-2 items-center text-lg md:text-xl">
                                 <FaLocationDot />
                                 <p>{location}</p>
@@ -40,7 +40,7 @@ const Residential = ({ spot }) => {
                                 {/* <p>{seasonality}</p> */}
                             </div>
                             <div className="flex gap-2 items-center text-lg md:text-xl">
-                                <FaCarSide />
+                                <FaRegCalendarDays  />
                                 <p><span className="font-bold">Travel Time :</span> {travelTime}</p>
                             </div>
                             <div className="flex items-center gap-2 text-lg md:text-xl">

@@ -45,7 +45,7 @@ const Banner = () => {
                     <div className=' md:rounded-full mt-4 md:w-[30%] md:ml-[50px] lg:ml-32'>
                         <h1 class="animate__animated animate__zoomIn">
                             <Link to="/allSpot">
-                                <button className='btn btn-outline btn-info md:btn-lg '>
+                                <button className='btn btn-outline btn-accent md:btn-lg '>
                                     <div className='flex gap-2 items-center'>
                                         <p>Explore</p> <FaArrowRightLong />
                                     </div>
@@ -60,13 +60,13 @@ const Banner = () => {
 
 
             {/* Slider */}
-            <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-10 bg-violet-200 rounded-3xl mb-10'>
+            <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-10  rounded-3xl mb-10'>
                 <div className='text-[] md:text-3xl md:font-bold text-center text-blue-600 mb-4 flex flex-row items-center justify-center gap-2'>
                     <h3 className='text-center'>
-                        Swipe Your Dream Places
+                        {/* Swipe Your Dream Places */}
                     </h3>
                     <div>
-                        <FaAnglesRight />
+                        {/* <FaAnglesRight /> */}
                     </div>
                 </div>
                 <Slider />

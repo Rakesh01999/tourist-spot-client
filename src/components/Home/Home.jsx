@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import Residentials from "../Residentials/Residentials";
 import Countries from "../Countries/Countries";
+import Services from "../Services/Services";
+import Feedback from "../Feedback/Feedback";
 
 const Home = () => {
     return (
@@ -13,6 +15,8 @@ const Home = () => {
             <Banner></Banner>
             <Residentials></Residentials>
             <Countries></Countries>
+            <Services></Services>
+            <Feedback></Feedback>
         </div>
     );
 };

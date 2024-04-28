@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useLoaderData } from "react-router-dom";
 
 const ViewDetails = () => {
@@ -7,6 +8,9 @@ const ViewDetails = () => {
     
     return (
         <div>
+            <Helmet>
+                <title>Tourizzo | Spot Details</title>
+            </Helmet>
             <h2 className="text-4xl my-3 font-bold text-center text-lime-500">Details </h2>
 
             <div className='max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto px-4 md:px-8 py-8 md:py-12 bg-lime-100 rounded-3xl flex flex-col items-center mb-10'>

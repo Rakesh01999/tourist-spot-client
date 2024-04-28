@@ -8,6 +8,7 @@ import { FaCarSide, FaMap } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { IoPeople } from "react-icons/io5";
 import { Zoom } from "react-awesome-reveal";
+import { Helmet } from "react-helmet-async";
 
 const AllSpot = () => {
 
@@ -28,6 +29,9 @@ const AllSpot = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Tourizzo | All Tourists Spot</title>
+            </Helmet>
             <Zoom>
                 <h2 className="text-2xl text-center text-lime-600 font-bold my-3">All Tourists Spot</h2>
                 <h2 className="text-2xl text-center text-lime-600 font-bold my-3">All  Spot: {spots.length}</h2>

@@ -13,18 +13,20 @@ const Footer = () => {
                         <h2 className="text-xl text-lime-400">Tourizzo</h2>
                     </nav>
                     <nav>
-                        <h6 className="footer-title">Services</h6>
-                        {/* <a className="link link-hover">Estate View</a> */}
-                        <a className="link link-hover">Design</a>
-                        <a className="link link-hover">Site Map</a>
-                        <a className="link link-hover">Advertisement</a>
-                    </nav>
-                    <nav>
                         <h6 className="footer-title">Company</h6>
                         <a className="link link-hover">About us</a>
                         <a className="link link-hover">Contact</a>
                         <a className="link link-hover">Press kit</a>
                     </nav>
+
+                    <nav>
+                        <h6 className="footer-title">Services</h6>
+                        {/* <a className="link link-hover">Estate View</a> */}
+                        <a className="link link-hover">Travel Guide</a>
+                        <a className="link link-hover">Hotel Booking</a>
+                        <a className="link link-hover">Worldwide Tour</a>
+                    </nav>
+
                     <nav>
                         <h6 className="footer-title">Legal</h6>
                         <a className="link link-hover">Terms of use</a>
