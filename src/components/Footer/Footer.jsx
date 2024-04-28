@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="md:container md:mx-auto">
                     </div>
                     <nav>
-                        <h2 className="text-xl text-lime-400">Tourizzo</h2>
+                        <h2 className="text-xl md:text-3xl text-lime-400">Tourizzo</h2>
                     </nav>
                     <nav>
                         <h6 className="footer-title">Company</h6>

@@ -59,7 +59,7 @@ const SpotCard = ({ spot }) => {
                         <FaCarSide></FaCarSide>
                         <p>Travel-Time : {travelTime}</p>
                     </div>
-                    <div className='flex flex-col md:flex-row gap-4'>
+                    <div className='flex flex-col md:flex-col lg:flex-row gap-4'>
                         <p className='bg-[#328EFF26] rounded-2xl text-[#328EFF] text-[16px] w-[200px] p-3'>Suitable Season: {seasonality}</p>
                         <p className='bg-[#FFAC3326] rounded-2xl text-red-500 text-[16px] w-[174px] p-3'> Average cost: {averageCost}</p>
                         <Link to={`/viewDetails/${spot._id}`}>

@@ -34,7 +34,7 @@ const AllSpot = () => {
             </Helmet>
             <Zoom>
                 <h2 className="text-2xl text-center text-lime-600 font-bold my-3">All Tourists Spot</h2>
-                <h2 className="text-2xl text-center text-lime-600 font-bold my-3">All  Spot: {spots.length}</h2>
+                {/* <h2 className="text-2xl text-center text-lime-600 font-bold my-3">All  Spot: {spots.length}</h2> */}
 
             </Zoom>
 
