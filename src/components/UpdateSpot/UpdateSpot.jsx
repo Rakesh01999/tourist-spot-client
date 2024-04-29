@@ -31,7 +31,7 @@ const UpdateSpot = () => {
 
         // update data to the server
 
-        fetch(`http://localhost:5000/spot/${spot._id}`, {
+        fetch(`https://tourist-spot-server-rho.vercel.app/spot/${spot._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

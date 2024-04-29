@@ -161,7 +161,7 @@ const Slider = () => {
                     <div className="w-full h-full flex flex-col justify-end">
                         <img src="https://i.postimg.cc/zGLppMqV/mario-la-pergola-KTHA8-H-qp-Ow-unsplash.jpg" className="w-full" />
                         <div className="absolute flex flex-col justify-between transform -translate-y-1/2 left-5 right-5 bottom-5">
-                            <h1 className="text-lime-200 text-lg md:text-4xl">
+                            <h1 className="text-lime-200 text-lg md:text-3xl">
                                 Bangkok, Thailand
                             </h1>
                             <p className="text-lime-200 text-lg md:text-4xl">
@@ -179,10 +179,10 @@ const Slider = () => {
                     <div className="w-full h-full flex flex-col justify-end">
                         <img src="https://i.postimg.cc/05MdhNjZ/m-o-e-Joxep-WVTr-NE-unsplash.jpg" className="w-full" />
                         <div className="absolute flex flex-col justify-between transform -translate-y-1/2 left-5 right-5 bottom-5">
-                            <h1 className="text-red-700 md:font-bold text-lg md:text-4xl">
+                            <h1 className="text-red-700 md:font-bold text-lg md:text-3xl lg:text-4xl">
                                 Bali, Indonesia
                             </h1>
-                            <p className="text-red-700 md:font-bold text-lg md:text-4xl">
+                            <p className="text-red-700 md:font-bold text-lg md:text-2xl lg:text-4xl">
                                 Famous for its beautiful beaches, lush landscapes, and vibrant culture.
                             </p>
                         </div>
@@ -197,10 +197,10 @@ const Slider = () => {
                     <div className="w-full h-full flex flex-col justify-end">
                         <img src="https://i.postimg.cc/nrpFKzPZ/niklas-weiss-2-Wl-TWZLn-Rc-unsplash.jpg" className="w-full" />
                         <div className="absolute flex flex-col justify-between transform -translate-y-1/2 left-5 right-5 bottom-5">
-                            <h1 className="text-lime-200 text-lg md:text-4xl">
+                            <h1 className="text-lime-200 text-lg md:text-3xl lg:text-4xl">
                                 Cameron Highlands, Malaysia
                             </h1>
-                            <p className="text-lime-200 text-lg md:text-4xl">
+                            <p className="text-lime-200 text-lg md:text-2xl lg:text-4xl">
                                 Famous for its cool climate, tea plantations, and scenic hiking trails.
                             </p>
                         </div>
@@ -215,10 +215,10 @@ const Slider = () => {
                     <div className="w-full h-full flex flex-col justify-end">
                         <img src="https://i.postimg.cc/02tkm9dR/sutirta-budiman-Dxm-BSg-UYKis-unsplash.jpg" className="w-full" />
                         <div className="absolute flex flex-col justify-between transform -translate-y-1/2 left-5 right-5 bottom-5">
-                            <h1 className="text-orange-500 md:font-bold text-lg md:text-4xl">
+                            <h1 className="text-orange-500 md:font-bold text-lg md:text-3xl lg:text-4xl">
                                 Ha Long Bay, Vietnam
                             </h1>
-                            <p flex-col className="text-orange-500 md:font-bold text-lg md:text-4xl">
+                            <p flex-col className="text-orange-500 md:font-bold text-lg md:text-2xl lg:text-4xl">
                                 UNESCO World Heritage site known for its emerald waters, towering limestone islands, and scenic cruises.
                             </p>
                         </div>
@@ -233,10 +233,10 @@ const Slider = () => {
                     <div className="w-full h-full flex flex-col justify-end">
                         <img src="https://i.postimg.cc/bryPD5Zw/bradley-prentice-d-YER-zr-GCm-I-unsplash.jpg" className="w-full" />
                         <div className="absolute flex flex-col  justify-between transform -translate-y-1/2 left-5 right-5 bottom-5">
-                            <h1 className="text-lime-200 md:font-bold text-lg md:text-4xl">
+                            <h1 className="text-lime-200 md:font-bold text-lg lg:text-4xl md:text-3xl">
                                 Kep ,Cambodia
                             </h1>
-                            <p className="text-lime-200 text-lg md:text-4xl">
+                            <p className="text-lime-200 text-lg md:text-2xl lg:text-4xl">
                                 Coastal town famous for its crab market, pepper plantations, and relaxed atmosphere.
                             </p>
                         </div>

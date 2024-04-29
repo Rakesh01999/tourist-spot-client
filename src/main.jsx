@@ -53,17 +53,17 @@ const router = createBrowserRouter([
       {
         path: '/residential',
         element: <Residential></Residential>,
-        loader: () => fetch('http://localhost:5000/spot')
+        loader: () => fetch('https://tourist-spot-server-rho.vercel.app/spot')
       },
       // {
       //   path: '/residentials',
       //   element: <Residentials></Residentials> ,
-      //   loader: () => fetch('http://localhost:5000/spot')
+      //   loader: () => fetch('https://tourist-spot-server-8z3k5bjru-rakesh-biswas-projects.vercel.app/spot')
       // },
       {
         path: '/residential/:id',
         element: <PrivateRoute><ResidentialDetails></ResidentialDetails></PrivateRoute> ,
-        loader: () => fetch('http://localhost:5000/spot')
+        loader: () => fetch('https://tourist-spot-server-rho.vercel.app/spot')
       },
       {
         path: '/login',
@@ -96,7 +96,7 @@ const router = createBrowserRouter([
       {
         path: '/allSpot',
         element: <AllSpot></AllSpot>,
-        loader: () => fetch('http://localhost:5000/spot')
+        loader: () => fetch('https://tourist-spot-server-rho.vercel.app/spot')
       },
       {
         path: '/addSpot',
@@ -105,23 +105,23 @@ const router = createBrowserRouter([
       {
         path: '/updateSpot/:id',
         element: <UpdateSpot></UpdateSpot>,
-        loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
+        loader: ({params}) => fetch(`https://tourist-spot-server-rho.vercel.app/spot/${params.id}`)
       },
       {
         path: '/myList',
         element: <PrivateRoute><MyList></MyList> </PrivateRoute>,
-        loader: () => fetch('http://localhost:5000/spot')
-        // loader: ({params}) => fetch(`http://localhost:5000/spot/${params.email}`)
+        loader: () => fetch('https://tourist-spot-server-rho.vercel.app/spot')
+        // loader: ({params}) => fetch(`https://tourist-spot-server-8z3k5bjru-rakesh-biswas-projects.vercel.app/spot/${params.email}`)
       },
       {
         path: '/viewDetails/:id',
         element: <PrivateRoute><ViewDetails></ViewDetails></PrivateRoute> ,
-        loader: ({params}) => fetch(`http://localhost:5000/spot/${params.id}`)
+        loader: ({params}) => fetch(`https://tourist-spot-server-rho.vercel.app/spot/${params.id}`)
       },
       {
         path: '/countries',
         element: <Countries></Countries>,
-        loader: () => fetch('http://localhost:5000/country')
+        loader: () => fetch('https://tourist-spot-server-rho.vercel.app/country')
       },
       {
         path: '/addCountry',
@@ -130,7 +130,7 @@ const router = createBrowserRouter([
       {
         path: '/countrySpots/:id',
         element: <CountrySpots></CountrySpots>,
-        loader: ({params}) => fetch(`http://localhost:5000/country/${params.id}`)
+        loader: ({params}) => fetch(`https://tourist-spot-server-rho.vercel.app/country/${params.id}`)
       }
     ]
   },
