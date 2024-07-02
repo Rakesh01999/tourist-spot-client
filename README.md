@@ -1,6 +1,6 @@
-# EstateEase
+# Tourizzo
 
-Welcome to EstateEase !
+Welcome to Tourizzo !
 
 Live Site: https://real-estate-d06a5.web.app/
 
