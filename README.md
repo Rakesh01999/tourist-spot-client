@@ -4,6 +4,9 @@ Welcome to Tourizzo !
 
 Live Site: https://real-estate-d06a5.web.app/
 
+## Overview
+The Tourist Spot Management project is designed to assist users in finding and selecting desirable tourist destinations based on their preferences and budget. The platform offers a comprehensive guide to tourist spots, allowing users to explore places by country, budget, and other criteria. This project aims to enhance the travel planning experience by providing an easy-to-use interface for discovering and organizing trips.
+
 ## Features and Characteristics
 - **Property Listings:** Browse through a wide range of residential properties.
 - **User Profiles:** User can create and manage his/her own user profile to save favorite listings and preferences.
