@@ -14,6 +14,13 @@ The Tourist Spot Management project is designed to assist users in finding and s
 - **Responsive Design:** Enjoy a seamless browsing experience across devices, including desktops, tablets, and mobile phones.
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
+## Overview
+* React
+* Javascript
+* Tailwind
+* Daisy UI
+* Firebase
+
 ## NPM Packages Used
 - **aos**: Animate on Scroll library for adding animations to elements as they appear in the viewport.
 - **animate.css**: A library of ready-to-use CSS animations for adding visual effects to elements.
