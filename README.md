@@ -15,7 +15,7 @@ The Tourist Spot Management project is designed to assist users in finding and s
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
 ## Overview
-* React
+* "react"
 * Javascript
 * Tailwind
 * Daisy UI
