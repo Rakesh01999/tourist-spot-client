@@ -14,7 +14,7 @@ The Tourist Spot Management project is designed to assist users in finding and s
 - **Responsive Design:** Enjoy a seamless browsing experience across devices, including desktops, tablets, and mobile phones.
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
-## Overview
+## Used Technologies
 * React
 * Javascript
 * Tailwind
