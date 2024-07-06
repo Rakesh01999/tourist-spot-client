@@ -10,7 +10,7 @@ The Tourist Spot Management project is designed to assist users in finding and s
 ## Features and Characteristics
 - **Spot Listings:** Browse through a wide range of tourist spots.
 - **User Profiles:** User can create and manage his/her own user profile to save favorite listings and preferences.
-- **Detailed Property Information:** Each spot listing on Tourizzo includes detailed information such as spot specifications, amenities, pricing details, high-quality images, providing users with all the necessary details to make informed decisions.
+- **Detailed Spot Information:** Each spot listing on Tourizzo includes detailed information such as spot specifications, amenities, pricing details, high-quality images, providing users with all the necessary details to make informed decisions.
 - **Responsive Design:** Enjoy a seamless browsing experience across devices, including desktops, tablets, and mobile phones.
 - **Secure Authentication:** User's data is protected with secure authentication methods to ensure privacy and security.
 
