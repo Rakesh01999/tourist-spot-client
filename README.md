@@ -4,7 +4,7 @@ Welcome to Tourizzo !
 
 Live Site: https://real-estate-d06a5.web.app/
 
-##Server Side
+## Server Side
 Repo: [Github Repo](https://github.com/Rakesh01999/tourist-spot-server)
 
 ## Overview
