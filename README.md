@@ -5,7 +5,7 @@ Welcome to Tourizzo !
 Live Site: https://real-estate-d06a5.web.app/
 
 ## Server Side
-Github-Repo: [Click](https://github.com/Rakesh01999/tourist-spot-server)
+Github-Repo: [Click Here](https://github.com/Rakesh01999/tourist-spot-server)
 
 ## Overview
 The Tourist Spot Management project is designed to assist users in finding and selecting desirable tourist destinations based on their preferences and budget. The platform offers a comprehensive guide to tourist spots, allowing users to explore places by country, budget, and other criteria. This project aims to enhance the travel planning experience by providing an easy-to-use interface for discovering and organizing trips.
