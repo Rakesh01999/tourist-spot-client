@@ -4,6 +4,7 @@ Welcome to Tourizzo !
 
 Live Site: https://real-estate-d06a5.web.app/
 
+
 ## Server Side
 Github-Repo: [Click Here](https://github.com/Rakesh01999/tourist-spot-server)
 
@@ -23,7 +24,6 @@ The Tourist Spot Management project is designed to assist users in finding and s
 * Tailwind
 * Daisy UI
 * Firebase
-
 
 ## NPM Packages Used
 - **aos**: Animate on Scroll library for adding animations to elements as they appear in the viewport.
