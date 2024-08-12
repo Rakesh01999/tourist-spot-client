@@ -24,6 +24,7 @@ The Tourist Spot Management project is designed to assist users in finding and s
 * Daisy UI
 * Firebase
 
+
 ## NPM Packages Used
 - **aos**: Animate on Scroll library for adding animations to elements as they appear in the viewport.
 - **animate.css**: A library of ready-to-use CSS animations for adding visual effects to elements.
